@@ -12,7 +12,7 @@ python nbtrain.py <training-directory> <model-file>
 e.g.
 python nbtrain.py C:\Users\dines\Desktop\CS6200+\NaiveBayes\textcat\train model_file_ls.txt
 ```
-Doing so will generate a text model file which will be later passed to nbtest.py for further classification.
+* Doing so will generate a text model file which will be later passed to nbtest.py for further classification.
 
 * Run the nbtest.py from the command prompt as follows:
 ```
@@ -30,7 +30,7 @@ python nbtrain_jms.py <training-directory> <model-file>
 e.g. 
 python nbtrain_jms.py C:\Users\dines\Desktop\CS6200+\NaiveBayes\textcat\train model_file_jms.txt
 ```
-Doing so will generate a text model file which will be later passed to nbtest.py for further classification.
+* Doing so will generate a text model file which will be later passed to nbtest.py for further classification.
 
 * Run the nbtest.py from the command prompt as follows:
 ```
@@ -47,7 +47,7 @@ python nbtrain_ds.py <training-directory> <model-file>
 e.g. 
 python nbtrain_ds.py C:\Users\dines\Desktop\CS6200+\NaiveBayes\textcat\train model_file_ds.txt
 ```
-Doing so will generate a text model file which will be later passed to nbtest.py for further classification.
+* Doing so will generate a text model file which will be later passed to nbtest.py for further classification.
 
 * Run the nbtest.py from the command prompt as follows:
 ```
@@ -65,7 +65,7 @@ python nbtrain_bg.py <training-directory> <model-file>
 e.g. 
 python nbtrain_bg.py C:\Users\dines\Desktop\CS6200+\NaiveBayes\textcat\train model_file_bg.txt
 ```
-Doing so will generate a text model file which will be later passed to nbtest_bg.py for further classification.
+* Doing so will generate a text model file which will be later passed to nbtest_bg.py for further classification.
 
 * Run the nbtest_bg.py from the command prompt as follows:
 ```
@@ -117,8 +117,8 @@ e.g. python nbtest.py model_file_ls.txt C:\Users\dines\Desktop\CS6200+\NaiveBaye
 * Results for this feature are stored in the Bigram directory.
 
 * The results are arranged as follows:
-	1> predict_dev_pos_bg.txt - predictions file for the dev data (postive reviews)
-	2> predict_dev_neg_bg.txt - predictions file for the dev data (negative reviews)
+	* predict_dev_pos_bg.txt - predictions file for the dev data (postive reviews)
+	* predict_dev_neg_bg.txt - predictions file for the dev data (negative reviews)
 
 * Upon analysis of the results of predictions file on dev data, the following was determined:
 	1> 80 % of positive reviews in the dev data were correctly classified
