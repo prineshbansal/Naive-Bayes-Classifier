@@ -79,39 +79,39 @@ e.g. python nbtest.py model_file_ls.txt C:\Users\dines\Desktop\CS6200+\NaiveBaye
 * Results for the Laplace smoothing are stored in the Laplace Smoothing directory.
 
 * The results are arranged as follows:
-	1> predict_dev_pos_ls.txt - predictions file for the dev data (postive reviews)
-	2> predict_dev_neg_ls.txt - predictions file for the dev data (negative reviews)
-	3> predict_test_ls.txt - predictions file for the test data
-	4> top_20_neg_to_pos_logratio.txt - List of the 20 terms with the highest (log) ratio of negative to positive weight.
-	5> top_20_pos_to_neg_logratio.txt - List of the 20 terms with the highest (log) ratio of positive to negative weight.
+	* predict_dev_pos_ls.txt - predictions file for the dev data (postive reviews)
+	* predict_dev_neg_ls.txt - predictions file for the dev data (negative reviews)
+	* predict_test_ls.txt - predictions file for the test data
+	* top_20_neg_to_pos_logratio.txt - List of the 20 terms with the highest (log) ratio of negative to positive weight.
+	* top_20_pos_to_neg_logratio.txt - List of the 20 terms with the highest (log) ratio of positive to negative weight.
 
 * Upon analysis of the results of predictions file on dev data, the following was determined:
-	1> 75 % of positive reviews in the dev data were correctly classified
-	2> 80 % of negative reviews in the dev data were correctly classified
+	* 75 % of positive reviews in the dev data were correctly classified
+	* 80 % of negative reviews in the dev data were correctly classified
 
 ### Jelinek-Mercer Smoothing
 * Results for this smoothing are stored in the Jelinek Mercer Smoothing directory.
 
 * The results are arranged as follows:
-	1> predict_dev_pos_jms.txt - predictions file for the dev data (postive reviews)
-	2> predict_dev_neg_jms.txt - predictions file for the dev data (negative reviews)
-	3> predict_test_jms.txt - predictions file for the test data
+	* predict_dev_pos_jms.txt - predictions file for the dev data (postive reviews)
+	* predict_dev_neg_jms.txt - predictions file for the dev data (negative reviews)
+	* predict_test_jms.txt - predictions file for the test data
 
 * Upon analysis of the results of predictions file on dev data, the following was determined:
-	1> 75 % of positive reviews in the dev data were correctly classified
-	2> 80 % of negative reviews in the dev data were correctly classified
+	* 75 % of positive reviews in the dev data were correctly classified
+	* 80 % of negative reviews in the dev data were correctly classified
 
 ### Dirichlet Smoothing
 * Results for this smoothing are stored in the Dirichlet Smoothing directory.
 
 * The results are arranged as follows:
-	1> predict_dev_pos_ds.txt - predictions file for the dev data (postive reviews)
-	2> predict_dev_neg_ds.txt - predictions file for the dev data (negative reviews)
-	3> predict_test_ds.txt - predictions file for the test data
+	* predict_dev_pos_ds.txt - predictions file for the dev data (postive reviews)
+	* predict_dev_neg_ds.txt - predictions file for the dev data (negative reviews)
+	* predict_test_ds.txt - predictions file for the test data
 
 * Upon analysis of the results of predictions file on dev data, the following was determined:
-	1> 69 % of positive reviews in the dev data were correctly classified
-	2> 80 % of negative reviews in the dev data were correctly classified
+	* 69 % of positive reviews in the dev data were correctly classified
+	* 80 % of negative reviews in the dev data were correctly classified
 
 ### Bigram Feature
 * Results for this feature are stored in the Bigram directory.
@@ -121,8 +121,8 @@ e.g. python nbtest.py model_file_ls.txt C:\Users\dines\Desktop\CS6200+\NaiveBaye
 	* predict_dev_neg_bg.txt - predictions file for the dev data (negative reviews)
 
 * Upon analysis of the results of predictions file on dev data, the following was determined:
-	1> 80 % of positive reviews in the dev data were correctly classified
-	2> 84 % of negative reviews in the dev data were correctly classified
+	* 80 % of positive reviews in the dev data were correctly classified
+	* 84 % of negative reviews in the dev data were correctly classified
 
 ## Requirements
 Python 3.6+ is required to run this program.
